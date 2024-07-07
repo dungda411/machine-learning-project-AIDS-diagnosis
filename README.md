@@ -12,15 +12,15 @@ With the rise of data, machine learning has played vital roles in many fields, e
 # 2. Project Description
 The dataset used for analysis (published in 1996, available on Kaggle) contains information about 2,139 patients diagnosed with AIDS, and includes 22 independent variables and 1 target. In this project, a full machine learning workflow was implemented:
 
-First, exploratory data analysis (EDA) aims to learn the dataset and the relationship between features. Visualization was performed, with a variety of chart types, such as histogram, bar chart, box plot, heatmap.
+- First, exploratory data analysis (EDA) aims to learn the dataset and the relationship between features. Visualization was performed, with a variety of chart types, such as histogram, bar chart, box plot, heatmap.
 ![image](https://github.com/dungda411/machine-learning-project-AIDS-diagnosis/assets/157843205/a966869b-2dad-42fa-a562-fff3c15dbad8)
 ![image](https://github.com/dungda411/machine-learning-project-AIDS-diagnosis/assets/157843205/16c15cc0-2994-4946-b0e6-e2446ea4c84e)
 ![image](https://github.com/dungda411/machine-learning-project-AIDS-diagnosis/assets/157843205/79441b31-4156-4d74-a64d-fa75112dccd7)
 ![image](https://github.com/dungda411/machine-learning-project-AIDS-diagnosis/assets/157843205/9fe4d179-d1c0-4496-8366-63206bfa264e)
 
-Next, dataset was prepared for the model developments. This step includes cleaning, splitting and engineering features.
+- Next, dataset was prepared for the model developments. This step includes cleaning, splitting and engineering features.
 
-And lastly, 5 models were developed and evaluated, including Random Forest, Gradient Boosting, Extra Trees, Bagging and Voting Classifier. Hyperparameters of each models were tuned with the help of GridSearchCV. The wide range of metrics was used for comparison, with balanced accuracy being the most important, especially for imbalanced dataset.
+- And lastly, 5 models were developed and evaluated, including Random Forest, Gradient Boosting, Extra Trees, Bagging and Voting Classifier. Hyperparameters of each models were tuned with the help of GridSearchCV. The wide range of metrics was used for comparison, with balanced accuracy being the most important, especially for imbalanced dataset.
 
 -----------------------------------------------------
 # 3. Result and Discussion
