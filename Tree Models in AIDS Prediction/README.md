@@ -1,3 +1,4 @@
+# Dataset Description
 The project uses a real dataset of AIDS patients in 1996, published in Kaggle. The dataset includes 22 independent features and 1 target:
 - time: time to failure or censoring
 - trt: treatment indicator (0 = ZDV only; 1 = ZDV + ddI, 2 = ZDV + Zal, 3 = ddI only)
